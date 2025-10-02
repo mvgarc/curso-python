@@ -79,3 +79,25 @@ elif a==0:
     print (-a)
 else: 
     print (a)"""
+
+
+# 1. Pedimos la entrada al usuario.
+# La función input() siempre guarda la respuesta como texto (string).
+genero = input("Por favor, introduce tu género (M/F): ")
+
+# 2. Convertimos la respuesta a minúsculas para manejar 'm', 'M', 'f', 'F' sin problemas.
+genero_normalizado = genero.lower()
+
+# 3. Estructura Condicional: Comprobamos el valor.
+
+if genero_normalizado == "f":
+    # Este bloque se ejecuta si el usuario introdujo 'f' o 'F'.
+    print("Has seleccionado el género femenino.")
+
+elif genero_normalizado == "m":
+    # Este bloque se ejecuta si el usuario introdujo 'm' o 'M'.
+    print("Has seleccionado el género masculino.")
+
+else:
+    # Este bloque se ejecuta si la respuesta no fue ni 'f' ni 'm'.
+    print("Respuesta no reconocida. Intenta solo con 'M' o 'F'.")
