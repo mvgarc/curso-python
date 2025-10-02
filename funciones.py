@@ -1,15 +1,17 @@
-"""def saludar(nombre):
-    print(f"Hola, {nombre}!")
+def sumar(a, b):
+    """Devuelve la suma de dos números."""
+    return a + b
 
-def despedir(nombre):
-    print(f"Adiós, {nombre}!")
+def restar(a, b):
+    """Devuelve la resta del primer número menos el segundo."""
+    return a - b
 
-saludar("Ana")
-despedir("Ana")"""
+def saludar(nombre):
+    """Devuelve un saludo personalizado."""
+    return f"¡Hola, {nombre}! Bienvenido a la calculadora."
 
-def es_par_o_impar(numero):
-    if numero % 2 == 0:
-        return "Par"
-    else:
-        return "Impar"
-    
+def dividir(a, b):
+    """Devuelve la división, manejando el error de división por cero."""
+    if b == 0:
+        return "Error: No se puede dividir por cero."
+    return a / b
