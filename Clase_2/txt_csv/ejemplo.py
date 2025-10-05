@@ -19,7 +19,7 @@ def manejar_archivos():
     # --- 3. ADICIÓN (MODO 'a' - APPEND) EN RUTA ESPECÍFICA ---
     
     # Definir la ruta relativa
-    ruta_archivo = "./Clase_2/txt_csv/datos.txt"
+    ruta_archivo = "./Clase_2/txt_csv/"
     
     # Asegurarse de que la carpeta exista antes de intentar escribir en el archivo
     directorio = os.path.dirname(ruta_archivo)
