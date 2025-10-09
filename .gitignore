@@ -60,3 +60,5 @@ Thumbs.db
 *.pem
 *.key
 *.env
+.png
+*.png
